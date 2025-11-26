@@ -1,0 +1,74 @@
+a {
+  color: darkviolet;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+  color: black;
+  margin: 15px 50px;
+  text-align: justify;
+}
+ul {
+  color: black;
+  margin: 10px 45px 20px;
+  text-align: justify;
+}
+li {
+  margin-top: 10px;
+}
+h1 {
+  color: darkviolet;
+  margin: 50px 80px 30px;
+  text-align: center;
+  font-size: 300%;
+}
+h2 {
+  color: teal;
+  margin: 30px 30px 10px;
+}
+h3 {
+  color: lightseagreen;
+  margin: 25px 50px;
+}
+nav {
+  background-color:lightseagreen;
+  padding: 0.3em;
+}
+nav li {
+  padding: 1.5em;
+  display: inline;
+  text-align: center;
+}
+.pagecontainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 3%
+}
+.mycontainer {
+  display: flex;
+  width: 100%;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+figure {
+  margin: 0 auto;
+  max-width: 100%;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+figcaption {
+  text-align: center;
+}
+.textcontainer {
+  width: 65%;
+}
